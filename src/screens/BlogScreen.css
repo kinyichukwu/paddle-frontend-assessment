@@ -1,0 +1,203 @@
+.blogging .navbar {
+    background: white;
+    color: black;
+  }
+  .blogging  .nav-item > a{
+    text-decoration: none;
+    color: black;
+    margin-right: 1rem;
+  }
+
+  .blogging .navnew{
+    width: 20px;
+    height: 2px;
+    margin: 4px 0;
+    background-color: #0c0123;
+    display: block;
+  }
+
+
+  .blogging .wraper {
+    background-image: linear-gradient(#1d003d, #0c0123);
+  }
+  .blogging  .about-home {
+    height: 50vh;
+    position: relative;
+    background-image: linear-gradient(#1d003d, #0c0123);
+  }
+  .blogging .white_color,
+  .white_color a {
+    color: white !important;
+    text-decoration: none;
+  }
+  .blogging .about-home > div.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .blogging .about-home > div.center > h6 {
+    transform: translate(-21%, -30%);
+  }
+  .blogging .about-home > div.center > h6 > span {
+    width: 5rem;
+    background-color: white;
+    display: inline-block;
+    height: 3px;
+  }
+
+  .blogging .background {
+    height: 100%;
+    width: 60%;
+    background: #311254e0;
+    position: relative;
+  }
+  .blogging .smallBox {
+    filter: blur(8px);
+    position: absolute;
+    background-image: linear-gradient(#792a7e, #792a7e, #1d003d);
+    height: 64%;
+    width: 38%;
+    right: 10rem;
+    top: 5rem;
+  }
+  /* --- */
+  .blogging  .question {
+    background-image: linear-gradient(#203669, #190A3E);
+    position: relative;
+    color: white;
+  }
+  .blogging .max-width {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  .blogging .inner {
+    width: 16rem;
+    right: 5rem;
+    top: 4.8rem;
+    height: 9.3rem;
+    filter: blur(8px);
+    position: absolute;
+    background-image: linear-gradient(rgba(255, 166, 0, 0.479), #0c0123);
+  }
+
+  .blogging .outer {
+    width: 24rem;
+    right: 3rem;
+    top: 2rem;
+    height: 14rem;
+    position: absolute;
+    background-color: rgba(255, 255, 255, 0.13);
+  }
+  .blogging .question > div > a {
+    color: #ff00f7;
+    text-decoration: none;
+  }
+  .blogging .question > div > a > img {
+    width: 1.3rem;
+    transform: translateY(-1.9px);
+  }
+  
+
+  
+  .blogging .latest-blog{
+    background-color: #fff;
+  }
+
+  .blogging  .latest-blog-text, .latest-blog-search{
+    width: 50%;
+  }
+
+  .blogging .latest-blog-search > input{
+    width: 80%;
+    border-radius: 2rem;
+    border: 1px solid gray;
+  }
+  .blogging  .latest-blog-search > .bx-search{
+    position: relative;
+    right: 50px;
+    top: 6px;
+    font-size: 1.5rem;
+  }
+  .blogging .all-blog-items{
+    background-color: white;
+  }
+
+  .blogging .all-blog-items > .blog-article{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: white;
+    padding: 2rem;
+  }
+
+  .blogging .all-blog-items > .blog-article > .card{
+    box-shadow: 1px 9px 4px 1px;
+    margin: auto;
+    margin-top: 2rem;
+}
+
+.blogging a.blog-button{
+    text-decoration: none;
+    color: #ff00f7;
+}
+
+.blogging .all-blog-items {
+    flex-direction: column;
+}
+.blogging .all-blog-items > button{
+    margin: 2rem auto;
+    padding: .6rem 2.5rem;
+    border-radius: 2rem;
+    background-color: #ff00f7;
+    color: white;
+    border: none;
+}
+.blogging .none{
+    visibility: none;
+}
+
+  @media (max-width: 990px) {
+    .blogging .comments-e > .growing-with-you > .inner {
+      width: 12rem;
+      height: 19rem;
+      right: 10rem;
+      top: 30rem;
+      background-image: linear-gradient(#32487d, #0c0123);
+      position: absolute;
+      filter: blur(8px);
+      z-index: 0;
+    }
+    .blogging .comments-e > .why-us {
+      width: 100%;
+      margin: 0 auto;
+    }
+    .blogging .comments-e > .growing-with-you {
+      width: 100%;
+      height: 22.5rem;
+  
+    }
+  }
+
+  @media (max-width: 800px) {
+    .blogging .latest-blog-text, .latest-blog-search{
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+  }
+
+  @media (min-width: 800px) {
+    
+  }
+
+
+  .blogging .info-page-blog {
+    color: black;
+    position: relative;
+  }
+  .blogging .info-page-blog span{
+    color: black;
+  }
+  .blogging .icons {
+    font-size: 1.6rem;
+  }

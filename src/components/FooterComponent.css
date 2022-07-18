@@ -1,0 +1,16 @@
+.info-page {
+  color: white;
+  position: relative;
+}
+.icons {
+  font-size: 1.6rem;
+}
+.transparent-circle-design {
+  background-color: rgba(255, 255, 255, 0.053);
+  width: 68rem;
+  height: 68rem;
+  border-radius: 50%;
+  position: fixed;
+  bottom: -65rem;
+  border-radius: white;
+}

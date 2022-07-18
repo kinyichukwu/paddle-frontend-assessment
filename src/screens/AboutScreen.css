@@ -1,0 +1,193 @@
+.navbar {
+  background: #1d003d;
+}
+.wraper {
+  background-image: linear-gradient(#1d003d, #0c0123);
+}
+.about-home {
+  height: 89vh;
+  position: relative;
+  background-image: linear-gradient(#1d003d, #0c0123);
+}
+.white_color,
+.white_color a {
+  color: white !important;
+  text-decoration: none;
+}
+.about-home > div.center {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+}
+.about-home > div.center > h6 {
+  transform: translate(-21%, -30%);
+}
+.about-home > div.center > h6 > span {
+  width: 5rem;
+  background-color: white;
+  display: inline-block;
+  height: 3px;
+}
+.about-home > div.center > h1 {
+  font-size: 4rem;
+}
+.about-home > div.bottom {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.background {
+  height: 100%;
+  width: 60%;
+  background: #311254e0;
+  position: relative;
+}
+.smallBox {
+  filter: blur(8px);
+  position: absolute;
+  background-image: linear-gradient(#792a7e, #792a7e, #1d003d);
+  height: 80%;
+  width: 40%;
+  right: 5rem;
+  top: 5rem;
+}
+.comment {
+  max-width: 1150px;
+  margin: 0 auto;
+  padding: 7rem 1rem;
+}
+.comment > h1 {
+  font-size: 3rem;
+}
+.comments-e {
+  position: relative;
+  padding-bottom: 8rem;
+}
+.comments-e > .why-us {
+  width: 50%;
+  margin: 0 auto;
+  max-width: 450px;
+}
+
+.comments-e > .growing-with-you {
+  width: 50%;
+  height: inherit;
+  background: #311254e0;
+}
+
+.comments-e > .growing-with-you > div {
+  width: 80%;
+  position: relative;
+}
+.comments-e > .growing-with-you > .inner {
+  width: 12rem;
+  height: 19rem;
+  right: 20rem;
+  background-image: linear-gradient(#32487d, #0c0123);
+  position: absolute;
+  filter: blur(8px);
+  z-index: 0;
+}
+/* styling the growing with u header */
+.comments-e > .growing-with-you > div > .front > h5 {
+  position: relative;
+  left: 2.3rem;
+}
+.comments-e > .growing-with-you > div > .front > h5 > span {
+  font-size: 0.8rem;
+  right: 26px;
+  bottom: 13px;
+  position: relative;
+}
+.comments-e > .growing-with-you > div > .front > h5 > span::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  bottom: -8px;
+  left: -14px;
+  position: absolute;
+  background: #fff;
+}
+/* --- */
+.comments-e > .why-us > h5 {
+  position: relative;
+  left: 2.3rem;
+}
+.comments-e > .why-us > h5 > span {
+  font-size: 0.8rem;
+  right: 26px;
+  bottom: 13px;
+  position: relative;
+}
+.comments-e > .why-us > h5 > span::before {
+  content: "";
+  width: 50px;
+  height: 2px;
+  bottom: -8px;
+  left: -14px;
+  position: absolute;
+  background: #fff;
+}
+/* --- */
+.why-us > .dots > .d-flex > span {
+  width: 0.4rem;
+  height: 0.4rem;
+  border-radius: 50%;
+  background-color: white;
+  margin-right: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.question {
+  background: #291246;
+  position: relative;
+  color: white;
+}
+.max-width {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+.inner {
+  width: 16rem;
+  right: 5rem;
+  top: 4.8rem;
+  height: 9.3rem;
+  filter: blur(8px);
+  position: absolute;
+  background-image: linear-gradient(rgba(255, 166, 0, 0.479), #0c0123);
+}
+.question > div > a {
+  color: #ff00f7;
+  text-decoration: none;
+}
+.question > div > a > img {
+  width: 1.3rem;
+  transform: translateY(-1.9px);
+}
+
+@media (max-width: 990px) {
+  .comments-e > .growing-with-you > .inner {
+    width: 12rem;
+    height: 19rem;
+    right: 10rem;
+    top: 30rem;
+    background-image: linear-gradient(#32487d, #0c0123);
+    position: absolute;
+    filter: blur(8px);
+    z-index: 0;
+  }
+  .comments-e > .why-us {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .comments-e > .growing-with-you {
+    width: 100%;
+    height: 22.5rem;
+
+  }
+  .about-home > div.center > h1 {
+    font-size: 2.5rem;
+    padding-bottom: 6rem;
+  }
+}

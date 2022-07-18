@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+body {
+  font-family: 'Nunito', sans-serif;
+}
+
+nav{
+    justify-content: space-between;
+}
+
+button.github {
+  margin: 1em;
+  padding: 1em;
+  font: inherit;
+  border-radius: 15px;
+}
+
+.loading {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  color: #fff;
+}

@@ -1,0 +1,224 @@
+.whole_page {
+  background-image: linear-gradient(#1d003d, #0c0123, #0c0123);
+}
+.landing_page {
+  height: 100vh;
+  max-width: 1150px;
+  margin: 0 auto;
+}
+.white_color,
+.white_color a {
+  color: white !important;
+  text-decoration: none;
+}
+.navbar-brand img {
+  width: 5.2rem;
+}
+.nav-item {
+  margin: 0 1rem;
+  font-size: 0.8rem;
+}
+.btn_padding {
+  padding: 0.3rem 1rem;
+  border-radius: 2.4rem;
+  background-color: #271ac1;
+}
+.bold {
+  font-weight: 770;
+}
+/* caption */
+.caption {
+  position: relative;
+  height: 80vh;
+}
+.caption h1 {
+  color: white;
+  font-size: 2.35rem;
+  text-align: center;
+  font-weight: 800;
+  line-height: 1.3;
+}
+.caption p {
+  color: white;
+  text-align: center;
+}
+.time-box-container {
+  display: flex;
+}
+.time-box {
+  background-color: white;
+  height: 6rem;
+  width: 5.4rem;
+  margin: 10px 0.37rem;
+  border-radius: 6px;
+}
+.time-box span {
+  display: block;
+  text-align: center;
+}
+.time-box .time-box-number {
+  padding-top: 0.7rem;
+  font-weight: 770;
+  font-size: 2rem;
+}
+form > input {
+  background-color: #0c0123;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  padding: 0.3rem 0.3rem;
+  color: white;
+  margin-top: 1rem;
+}
+/* margin: 1rem; */
+form div {
+  margin: 0.5rem;
+  background-color: white;
+  border-radius: 2rem;
+  margin: 1.3rem 0;
+}
+form div > input {
+  height: 3rem;
+  border: none;
+  width: 20rem;
+  border-radius: 2rem;
+}
+form div > button {
+  border: none;
+  border-radius: 2rem;
+  background-color: #271ac1;
+  color: white;
+  height: 3.5rem;
+  padding: 0 20px;
+}
+
+/* hover and active buttons */
+.hover:hover {
+  background-color: #191175;
+}
+.hover:active {
+  transform: scale(0.98);
+}
+
+/* circles position */
+.p-absolute {
+  position: absolute;
+}
+
+.caption > span.pup {
+  width: 5.5rem;
+  height: 5.5rem;
+  left: 6rem;
+  top: 2rem;
+  border-radius: 3rem;
+  z-index: -0.5;
+}
+.caption > span.blu {
+  width: 4rem;
+  height: 4rem;
+  right: 10.4rem;
+  top: 9rem;
+  border-radius: 2.5rem;
+}
+.caption > span.org {
+  left: 16rem;
+  bottom: -4rem;
+  width: 6rem;
+  height: 6rem;
+  border-radius: 3rem;
+}
+
+/* mobile and  tablet*/
+
+@media (max-width: 767px) {
+    .extra-margin {
+        margin-top: 3rem;
+      }
+  .navbar-brand img {
+    width: 3.8rem;
+  }
+  .caption h1 {
+    color: white;
+    font-size: 1.98rem;
+    text-align: center;
+    font-weight: 800;
+    line-height: 1.3;
+  }
+  .caption p {
+    font-size: 0.9rem;
+  }
+  .time-box .time-box-number {
+    font-size: 1.1rem;
+  }
+  form {
+    margin-top: 1rem;
+  }
+  /* margin: 1rem; */
+  form div > input {
+    width: 15rem;
+    border-radius: 2rem;
+  }
+  form div > button {
+    height: 3rem;
+    font-size: small;
+    padding: 0 16px;
+  }
+  .caption > span.pup {
+    width: 2rem;
+    height: 2rem;
+  }
+  .caption > span.blu {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  .caption > span.org {
+    width: 3rem;
+    height: 3rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .extra-margin {
+    margin-top: 3rem;
+  }
+  .navbar-brand img {
+    width: 3rem;
+  }
+  .caption h1 {
+    color: white;
+    font-size: 1.75rem;
+  }
+  .caption p {
+    font-size: 0.8rem;
+  }
+  .time-box .time-box-number {
+    font-size: .8rem;
+  }
+  .time-box-container {
+    display: flex;
+  }
+  .time-box {
+    height: 5.2rem;
+    width: 4.2rem;
+    margin: 10px 0.37rem;
+    border-radius: 6px;
+  }
+  .time-box span {
+    display: block;
+    text-align: center;
+  }
+  .time-box .time-box-number {
+    padding-top: 0.7rem;
+    font-weight: 770;
+    font-size: 2rem;
+  }
+  form {
+    margin-top: 1rem;
+  }
+  /* margin: 1rem; */
+  form div > input {
+    width: 13rem;
+    border-radius: 2rem;
+  }
+  
+}

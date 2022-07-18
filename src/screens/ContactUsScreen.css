@@ -1,0 +1,90 @@
+.contat-page-left{
+    width: 50vw;
+}
+.contat-page-left > img{
+    width: 100%;
+    height: 50%;
+    filter: blur(35px);
+    position: sticky;
+}
+.contat-page-right{
+    width: 50vw;
+    background-image: linear-gradient(#1E0041, #0D0124);
+    color: white;
+}
+.contat-page-right > .innerform{
+    width: 80%;
+}
+.contat-page-right > .innerform > .input-box > input{
+    border: none;
+    width: 100%;
+    padding: 1.25rem 2rem;
+    border-radius: .65rem;
+}
+.contat-page-right > .innerform > .input-box > textarea{
+    width: 100%;
+    border-radius: .5rem;
+}
+.contat-page-right > .innerform > button{
+    border: none;
+    border-radius: 1.5rem;
+    color: white;
+    background-color: #271AC1;
+    padding: .9rem 2.3rem;
+    margin-bottom: 6rem;
+}
+.contat-page-right > .back-button{
+    background-color: white;
+    border-radius: 50%;
+    width: 3.5rem;
+    height: 3.5rem;
+    position: relative;
+    right: 4.62rem;
+}
+.contat-page-right > .back-button img{
+    width: 4.6rem;
+    position: absolute;
+    padding: 1rem;
+    top: -.5rem;
+    left: -.64rem;
+}
+.contat-page-right > .back-button img:hover{
+    cursor: pointer;
+
+}
+
+/* mobile and  tablet*/
+@media (max-width: 790px) {
+    .contat-page-right{
+        width: 100vw;
+    }
+    .contat-page-left{
+        display: none;
+    }
+    .contat-page-right > .back-button{
+        background-color: white;
+        border-radius: 50%;
+        width: 3.5rem;
+        height: 3.5rem;
+        position: relative;
+        right: -42%;
+    }
+    .contat-page-right > .innerform{
+        width: 89%;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .contat-page-right > .back-button{
+        background-color: white;
+        border-radius: 50%;
+        width: 3.5rem;
+        height: 3.5rem;
+        position: relative;
+        right: -37%;
+    }
+    .contat-page-right > .innerform{
+        width: 89%;
+    }
+}
